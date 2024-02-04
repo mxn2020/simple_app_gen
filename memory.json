@@ -1,0 +1,10 @@
+{
+    "project": {
+        "files": {
+            "output_folder": "__temp_project/project_20240204_214024/output",
+            "project_folder": "__temp_project/project_20240204_214024",
+            "prompt_folder": "__temp_project/project_20240204_214024/prompts",
+            "response_folder": "__temp_project/project_20240204_214024/responses"
+        }
+    }
+}

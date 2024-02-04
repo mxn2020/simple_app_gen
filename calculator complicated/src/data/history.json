@@ -1,0 +1,12 @@
+{
+  "calculation_history": [
+    {
+      "expression": "2 + 3",
+      "result": 5
+    },
+    {
+      "expression": "5 * 4",
+      "result": 20
+    }
+  ]
+}

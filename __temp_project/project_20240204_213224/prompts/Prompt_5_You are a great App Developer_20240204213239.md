@@ -1,0 +1,48 @@
+### Prompt (time: 20240204213239)
+
+[
+    {
+        "role": "system",
+        "content": "You are a great App Developer"
+    },
+    {
+        "role": "user",
+        "content": "## Prompt:\n. Please provide your response in json format and in the requested structure which is shown below.\n\n## Context:\n- project_name: calculator react web app\n- project_description: \n\n## Instructions:\n1. Prepare a list of features and functionalities for the project.\n2. Include all the necessary features for a complete application.\n\n## Response Format:\nRemember to provide your response in the format: json\n\n## Expected Structure:\n{'features': [{'name': <class 'str'>, 'description': <class 'str'>}]}\n\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n  \"features\": [\n    {\n      \"name\": \"User-friendly interface\",\n      \"description\": \"Intuitive and easy-to-use interface for a seamless user experience.\"\n    },\n    {\n      \"name\": \"Basic arithmetic operations\",\n      \"description\": \"Ability to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.\"\n    },\n    {\n      \"name\": \"Memory functions\",\n      \"description\": \"Support for memory functions like memory storage, recall, and clearing.\"\n    },\n    {\n      \"name\": \"Scientific functions\",\n      \"description\": \"Include scientific functions like square root, exponents, trigonometric functions, and logarithms.\"\n    },\n    {\n      \"name\": \"History log\",\n      \"description\": \"Trace and review the calculation history with a history log feature.\"\n    },\n    {\n      \"name\": \"Theme customization\",\n      \"description\": \"Allow users to customize the theme or appearance of the calculator.\"\n    }\n  ]\n}"
+    },
+    {
+        "role": "user",
+        "content": "## Prompt:\n. Please provide your response in json format and in the requested structure which is shown below.\n\n## Instructions:\n1. Prepare a file and folder structure for the project.\n2. Include all the necessary files and folders for a complete application.\n\n## Response Format:\nRemember to provide your response in the format: json\n\n## Expected Structure:\n{'files': [{'name': <class 'str'>, 'file_path': <class 'str'>, 'description': <class 'str'>}], 'folders': [{'name': <class 'str'>, 'description': <class 'str'>}]}\n\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n  \"files\": [\n    {\n      \"name\": \"index.html\",\n      \"file_path\": \"/public/index.html\",\n      \"description\": \"Main HTML file for the calculator app.\"\n    },\n    {\n      \"name\": \"App.js\",\n      \"file_path\": \"/src/components/App.js\",\n      \"description\": \"Main component file for the calculator app.\"\n    },\n    {\n      \"name\": \"Calculator.css\",\n      \"file_path\": \"/src/components/Calculator.css\",\n      \"description\": \"CSS file for styling the calculator.\"\n    },\n    {\n      \"name\": \"Calculator.js\",\n      \"file_path\": \"/src/components/Calculator.js\",\n      \"description\": \"Component file for the calculator logic.\"\n    }\n  ],\n  \"folders\": [\n    {\n      \"name\": \"public\",\n      \"description\": \"Folder for static assets like HTML and images.\"\n    },\n    {\n      \"name\": \"src\",\n      \"description\": \"Main source code folder for the project.\"\n    },\n    {\n      \"name\": \"components\",\n      \"description\": \"Folder to store React components.\"\n    }\n  ]\n}"
+    },
+    {
+        "role": "user",
+        "content": "## Prompt:\n. Please provide your response in json format and in the requested structure which is shown below.\n\n## Instructions:\n1. Prepare a plan for implementing the project.\n2. Include all the necessary steps for a complete application.\n\n## Response Format:\nRemember to provide your response in the format: json\n\n## Expected Structure:\n{'plan': <class 'str'>}\n\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n  \"plan\": \"1. Define project requirements and gather necessary resources. 2. Design the user interface for the calculator app. 3. Set up the project structure with appropriate files and folders. 4. Implement basic arithmetic operations and user input handling. 5. Add memory functions and scientific operations. 6. Implement theme customization options. 7. Test the application for functionality and user experience. 8. Deploy the calculator app to a web server or hosting platform. 9. Monitor and gather user feedback for future updates and improvements.\"\n}"
+    },
+    {
+        "role": "user",
+        "content": "## Prompt:\n.\n\n## Context:\n- file_name: index.html\n- file_description: Main HTML file for the calculator app.\n- file_path: /public/index.html\n\n## Instructions:\n1. Prepare a list of features and functionalities for the project.\n2. Include all the necessary features for a complete application.\n3. Also provide the file path in array format like this ['app', 'src'] as file_path_as_array and 'app.py' as file_name for the file app.py in the src folder.\n\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n  \"features\": [\n    {\n      \"name\": \"User-friendly interface\",\n      \"description\": \"Intuitive and easy-to-use interface for a seamless user experience.\"\n    },\n    {\n      \"name\": \"Basic arithmetic operations\",\n      \"description\": \"Ability to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.\"\n    },\n    {\n      \"name\": \"Memory functions\",\n      \"description\": \"Support for memory functions like memory storage, recall, and clearing.\"\n    },\n    {\n      \"name\": \"Scientific functions\",\n      \"description\": \"Include scientific functions like square root, exponents, trigonometric functions, and logarithms.\"\n    },\n    {\n      \"name\": \"History log\",\n      \"description\": \"Trace and review the calculation history with a history log feature.\"\n    },\n    {\n      \"name\": \"Theme customization\",\n      \"description\": \"Allow users to customize the theme or appearance of the calculator.\"\n    }\n  ],\n  \"file_path_as_array\": [\"public\"],\n  \"file_name\": \"index.html\"\n}"
+    },
+    {
+        "role": "user",
+        "content": "## Prompt:\n. Please provide your response in json format and in the requested structure which is shown below.\n\n## Context:\n- information: {\n  \"features\": [\n    {\n      \"name\": \"User-friendly interface\",\n      \"description\": \"Intuitive and easy-to-use interface for a seamless user experience.\"\n    },\n    {\n      \"name\": \"Basic arithmetic operations\",\n      \"description\": \"Ability to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.\"\n    },\n    {\n      \"name\": \"Memory functions\",\n      \"description\": \"Support for memory functions like memory storage, recall, and clearing.\"\n    },\n    {\n      \"name\": \"Scientific functions\",\n      \"description\": \"Include scientific functions like square root, exponents, trigonometric functions, and logarithms.\"\n    },\n    {\n      \"name\": \"History log\",\n      \"description\": \"Trace and review the calculation history with a history log feature.\"\n    },\n    {\n      \"name\": \"Theme customization\",\n      \"description\": \"Allow users to customize the theme or appearance of the calculator.\"\n    }\n  ],\n  \"file_path_as_array\": [\"public\"],\n  \"file_name\": \"index.html\"\n}\n\n## Instructions:\n1. Please return the given information in json format.\n2. Also provide the file path in array format like this ['app', 'src'] as file_path_as_array and 'app.py' as file_name for the file app.py in the src folder.\n\n## Response Format:\nRemember to provide your response in the format: json\n\n## Expected Structure:\n{'features': [{'name': <class 'str'>, 'description': <class 'str'>}], 'file_path_as_array': [<class 'str'>], 'file_name': <class 'str'>}\n\n\n"
+    },
+    {
+        "role": "user",
+        "content": "## Prompt:\n.\n\n## Context:\n- file_name: index.html\n- file_description: Main HTML file for the calculator app.\n- file_path: /public/index.html\n- file_features: {'features': [{'name': 'User-friendly interface', 'description': 'Intuitive and easy-to-use interface for a seamless user experience.'}, {'name': 'Basic arithmetic operations', 'description': 'Ability to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.'}, {'name': 'Memory functions', 'description': 'Support for memory functions like memory storage, recall, and clearing.'}, {'name': 'Scientific functions', 'description': 'Include scientific functions like square root, exponents, trigonometric functions, and logarithms.'}, {'name': 'History log', 'description': 'Trace and review the calculation history with a history log feature.'}, {'name': 'Theme customization', 'description': 'Allow users to customize the theme or appearance of the calculator.'}], 'file_path_as_array': ['public'], 'file_name': 'index.html'}\n\n## Instructions:\n1. Generate a comprehensive and well coded implementation code for the current file.\n2. Also generate brief instruction on how to use the file and what it does.\n\n\n"
+    }
+]

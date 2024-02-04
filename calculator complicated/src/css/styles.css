@@ -1,0 +1,27 @@
+/* Styles for the calculator interface */
+.calculator {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Button styling */
+.button {
+  background-color: #e0e0e0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  .calculator {
+    width: 100%;
+  }
+}

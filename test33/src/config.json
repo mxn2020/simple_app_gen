@@ -1,0 +1,15 @@
+{
+    "api_key": "YOUR_API_KEY",
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "username": "your_username",
+        "password": "your_password",
+        "database_name": "your_database"
+    },
+    "logging": {
+        "log_level": "INFO",
+        "log_file": "app.log"
+    },
+    "language": "en"
+}

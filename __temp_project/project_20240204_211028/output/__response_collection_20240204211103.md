@@ -1,0 +1,5 @@
+{
+  "file_path": "/config.py",
+  "code": "# Database Configuration\nDATABASE_TYPE = 'mysql'\nDATABASE_HOST = 'localhost'\nDATABASE_PORT = 3306\nDATABASE_USERNAME = 'root'\nDATABASE_PASSWORD = 'password'\n\n# Flask App Configuration\nSECRET_KEY = 'your_secret_key_here'\nDEBUG = True\n\n# Logging Configuration\nLOG_FILE = 'app.log'\n\n# API Keys Configuration\FACEBOOK_API_KEY = 'your_facebook_api_key'\nEMAIL_API_KEY = 'your_email_api_key'\n\n# Environment Configuration\nENV = 'development'",
+  "file_instruction": "This file contains configuration settings for the CRM backend for Facebook leads project. Configure the database connection details, Flask application settings, logging configuration, API keys, and environment-specific settings in this file. Use this file to customize and manage the application settings."
+}

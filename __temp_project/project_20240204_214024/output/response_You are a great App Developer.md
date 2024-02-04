@@ -1,0 +1,5 @@
+{
+  "file_path": "/server/database.js",
+  "code": "/* Sample database.js code */ \n\n// Establish database connection\nfunction connectToDatabase() {\n   // Database connection logic\n}\n\n// Retrieve data from the database\nfunction retrieveDataFromDatabase() {\n   // Data retrieval logic\n}\n\n// Insert new data or update existing data\nfunction insertOrUpdateDataInDatabase() {\n   // Data insertion and updating logic\n}\n\n// Validate data before inserting or updating\nfunction validateDataForDatabase(data) {\n   // Data validation logic\n}\n",
+  "file_instruction": "To use this database.js file, ensure Node.js is installed and then run the file using Node.js to establish a connection to the database, retrieve data, insert/update data, and validate data. Make sure to replace the sample logic with actual database connection details and operations as needed."
+}

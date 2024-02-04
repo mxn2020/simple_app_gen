@@ -1,0 +1,28 @@
+### Prompt (time: 20240204211605)
+
+[
+    {
+        "role": "system",
+        "content": "You are a great App Developer"
+    },
+    {
+        "role": "user",
+        "content": "## Prompt:\n. Please provide your response in json format and in the requested structure which is shown below.\n\n## Context:\n- project_name: test33\n- project_description: \n\n## Instructions:\n1. Prepare a list of features and functionalities for the project.\n2. Include all the necessary features for a complete application.\n\n## Response Format:\nRemember to provide your response in the format: json\n\n## Expected Structure:\n{'features': [{'name': <class 'str'>, 'description': <class 'str'>}]}\n\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"features\": [\n        {\n            \"name\": \"User Authentication\",\n            \"description\": \"Allow users to create accounts, log in, and manage their profiles.\"\n        },\n        {\n            \"name\": \"Data Storage\",\n            \"description\": \"Store user-generated data securely in a database.\"\n        },\n        {\n            \"name\": \"Search Functionality\",\n            \"description\": \"Enable users to search for specific content within the application.\"\n        },\n        {\n            \"name\": \"Notifications\",\n            \"description\": \"Send notifications to users for important updates or events.\"\n        },\n        {\n            \"name\": \"Payment Integration\",\n            \"description\": \"Integrate a payment gateway for users to make transactions within the app.\"\n        },\n        {\n            \"name\": \"Admin Dashboard\",\n            \"description\": \"Provide an interface for admins to manage users, content, and settings.\"\n        },\n        {\n            \"name\": \"Analytics\",\n            \"description\": \"Track and analyze user behavior and app performance.\"\n        },\n        {\n            \"name\": \"Feedback System\",\n            \"description\": \"Allow users to provide feedback and suggestions for improvements.\"\n        }\n    ]\n}"
+    },
+    {
+        "role": "user",
+        "content": "## Prompt:\n. Please provide your response in json format and in the requested structure which is shown below.\n\n## Instructions:\n1. Prepare a file and folder structure for the project.\n2. Include all the necessary files and folders for a complete application.\n\n## Response Format:\nRemember to provide your response in the format: json\n\n## Expected Structure:\n{'files': [{'name': <class 'str'>, 'file_path': <class 'str'>, 'description': <class 'str'>}], 'folders': [{'name': <class 'str'>, 'description': <class 'str'>}]}\n\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"files\": [\n        {\n            \"name\": \"app.py\",\n            \"file_path\": \"/src/app.py\",\n            \"description\": \"Main application file responsible for running the app\"\n        },\n        {\n            \"name\": \"database.py\",\n            \"file_path\": \"/src/database.py\",\n            \"description\": \"File for managing database connections and operations\"\n        },\n        {\n            \"name\": \"utils.py\",\n            \"file_path\": \"/src/utils.py\",\n            \"description\": \"File containing utility functions used throughout the app\"\n        },\n        {\n            \"name\": \"config.json\",\n            \"file_path\": \"/src/config.json\",\n            \"description\": \"Configuration file for storing app settings\"\n        }\n    ],\n    \"folders\": [\n        {\n            \"name\": \"templates\",\n            \"description\": \"Folder for storing HTML templates used for UI\"\n        },\n        {\n            \"name\": \"static\",\n            \"description\": \"Folder for storing static files such as CSS, images, and JavaScript\"\n        },\n        {\n            \"name\": \"models\",\n            \"description\": \"Folder for storing database models and schema definitions\"\n        },\n        {\n            \"name\": \"routes\",\n            \"description\": \"Folder for defining routes and handling requests\"\n        }\n    ]\n}"
+    },
+    {
+        "role": "user",
+        "content": "## Prompt:\n. Please provide your response in json format and in the requested structure which is shown below.\n\n## Instructions:\n1. Prepare a plan for implementing the project.\n2. Include all the necessary steps for a complete application.\n\n## Response Format:\nRemember to provide your response in the format: json\n\n## Expected Structure:\n{'plan': <class 'str'>}\n\n\n"
+    }
+]

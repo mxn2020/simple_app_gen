@@ -1,0 +1,22 @@
+{
+    "features": [
+        {"name": "User Authentication", "description": "Allow users to register, login, and manage their accounts."},
+        {"name": "Lead Management", "description": "Capture, store, and manage Facebook leads and their details."},
+        {"name": "Contact Management", "description": "Manage contacts, including adding, updating, and deleting contact information."},
+        {"name": "Task Management", "description": "Create and manage tasks related to leads or contacts."},
+        {"name": "Reporting", "description": "Generate various reports related to leads, contacts, and tasks."},
+        {"name": "API Integration", "description": "Integrate with Facebook API to fetch leads and other necessary data."},
+        {"name": "Role-based Access Control", "description": "Define roles and permissions for different types of users."},
+        {"name": "Data Import/Export", "description": "Import and export data in various formats for easy data management."},
+        {"name": "Notifications", "description": "Send notifications to users for important updates and tasks."},
+        {"name": "Dashboard", "description": "Provide a visual dashboard with key metrics and insights."},
+        {"name": "Search Functionality", "description": "Allow users to quickly search for leads, contacts, or tasks."},
+        {"name": "Custom Fields", "description": "Enable users to add custom fields to leads and contacts for specific information."},
+        {"name": "Mobile Support", "description": "Ensure the application is responsive and accessible on mobile devices."},
+        {"name": "Logging and Auditing", "description": "Keep track of user actions and changes for security and accountability."},
+        {"name": "Integration with CRM Tools", "description": "Integrate with other CRM tools for enhanced functionality."},
+        {"name": "Email Integration", "description": "Allow for seamless integration with email services for communication purposes."}
+    ],
+    "file_path_as_array": ["src"],
+    "file_name": "app.py"
+}

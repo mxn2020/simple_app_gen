@@ -1,0 +1,4 @@
+# List of Python dependencies for the application
+
+flask
+flask_sqlalchemy

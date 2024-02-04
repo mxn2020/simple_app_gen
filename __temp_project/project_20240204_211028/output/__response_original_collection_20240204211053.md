@@ -1,0 +1,5 @@
+{
+  "file_path": "/models.py",
+  "code": "from flask_sqlalchemy import SQLAlchemy\n\n# Initialize SQLAlchemy\ndb = SQLAlchemy()\n\n# User model\nclass User(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(50), unique=True, nullable=False)\n    email = db.Column(db.String(100), unique=True, nullable=False)\n    password_hash = db.Column(db.String(100), nullable=False)\n    role = db.Column(db.String(20), nullable=False)\n\n# Lead model\nclass Lead(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(100), nullable=False)\n    email = db.Column(db.String(100), nullable=False)\n    phone_number = db.Column(db.String(20))\n    source = db.Column(db.String(50))\n    status = db.Column(db.String(20), default='New')\n    interaction_history = db.Column(db.Text)\n",
+  "file_instruction": "This file contains the database models for the CRM backend for Facebook leads project. It defines the User model to store user information and the Lead model to store lead details. Use this file to define and interact with the database tables corresponding to users and leads in the application."
+}

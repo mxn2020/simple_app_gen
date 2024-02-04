@@ -1,0 +1,7 @@
+```json
+{
+    "file_path": "calculator_python_flask_app/static/",
+    "code": "Static assets such as CSS stylesheets, JavaScript files, images, fonts, and additional assets should be saved in this folder. Ensure that the file structure and naming convention match the requirements of your Flask application. You can link these static assets in your HTML templates to enhance the visual appearance and functionality of the calculator app.",
+    "file_instruction": "Static assets are essential for providing visual styling and interactive functionalities to the frontend of the calculator app. To use the static assets, place respective files in the 'static' folder following the Flask structure conventions. Make sure to link CSS stylesheets and JavaScript files in your HTML templates for styling and functionality enhancements."
+}
+```

@@ -1,0 +1,7 @@
+# List of required dependencies for the CRM backend Flask for Facebook leads project
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Requests
+Flask-Cors
+Flask-Login
